@@ -16,9 +16,9 @@ const HomePage = () => {
     <div className=" flex flex-col gap-12">
       <div className=" md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
         <h1 className=" text-5xl font-bold tracking-tight text-orange-600">
-          Es mosapiqrebeli maqvs
+          Order from best restaurants in town
         </h1>
-        <span className="tex-xl">aqac marketinguli ci</span>
+        <span className="tex-xl">24/7 service and delivery </span>
         <SearchBar
           placeHolder="Search by City or Town"
           onSubmit={handleSearchSubmit}
@@ -28,9 +28,9 @@ const HomePage = () => {
         <img src={landingImage} />
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <span className="font-bold text-3xl tracking-tighter">
-            Order takewat even faster
+            Order takeway even faster
           </span>
-          <span>Download our apps some daddgfdfsgsd</span>
+          <span className=" text-xl font-bold">Express App</span>
           <img src={appDownloadImage} />
         </div>
       </div>
